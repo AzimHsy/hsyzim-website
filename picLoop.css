@@ -1,0 +1,93 @@
+.wrapper {  
+    margin-top: 130px;
+    margin-inline: auto;
+    height: 155px;
+    position: relative;
+    overflow: hidden;
+    mask-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 1) 20%,
+        rgba(0, 0, 0, 1) 80%,
+        rgba(0, 0, 0, 0)
+    ); 
+} 
+
+@keyframes scrollleft {
+    to {
+        left: -300px;
+    }
+}
+
+.hsy {
+    width: 280px;
+    border-radius: 10px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    position: absolute;
+    left: max(calc(280px * 5), 100%);
+    animation: scrollleft 20s linear infinite;
+}
+
+.hsy1 {
+    animation-delay: calc(40s / 5 * ( 5 - 1 ) * -1);
+}
+.hsy2 {
+    animation-delay: calc(40s / 5 * ( 5 - 2 ) * -1);
+}
+.hsy3 {
+    animation-delay: calc(40s / 5 * ( 5 - 3 ) * -1);
+}
+.hsy4 {
+    animation-delay: calc(40s / 5 * ( 5 - 4 ) * -1);
+}
+.hsy5 {
+    animation-delay: calc(40s / 5 * ( 5 - 5 ) * -1);
+}
+
+.wrapper-bottom {
+    margin-top: 60px;
+    height: 155px;
+    position: relative;
+    overflow: hidden; 
+    mask-image: linear-gradient(
+        to left,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 1) 20%,
+        rgba(0, 0, 0, 1) 80%,
+        rgba(0, 0, 0, 0)
+    ); 
+}
+
+@keyframes scrollright {
+    to {
+        right: -300px;
+    }
+}
+
+.hsy-bottom {
+    width: 280px;
+    border-radius: 10px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    position: absolute;
+    right: max(calc(280px * 5), 100%);
+    animation: scrollright 20s linear infinite;
+}
+
+.hsy6 {
+    animation-delay: calc(40s / 5 * ( 5 - 1 ) * -1);
+}
+.hsy7 {
+    animation-delay: calc(40s / 5 * ( 5 - 2 ) * -1);
+}
+.hsy8 {
+    animation-delay: calc(40s / 5 * ( 5 - 3 ) * -1);
+}
+.hsy9 {
+    animation-delay: calc(40s / 5 * ( 5 - 4 ) * -1);
+}
+.hsy10 {
+    animation-delay: calc(40s / 5 * ( 5 - 5 ) * -1);
+}
+

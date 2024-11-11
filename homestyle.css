@@ -1,0 +1,121 @@
+
+.home-container {
+    top: 80px;
+    margin: 30px 40px;
+    display: flex;
+    position: relative;
+    height: 320pxx;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    border: 4px solid white;
+    background-image: url(pinkbgf/Cute-Pink-HD-Desktop-Wallpaper-Download-Free-1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+} 
+
+.gambar-container {
+    margin: 0 46px; 
+    position: absolute;
+    right: 0;
+    width: 310px;
+    height: 310px;
+    margin-right: 75px;
+    perspective: 800px;
+}
+
+.gambar-baby {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1.2s ease;
+}
+
+.gambar-container:hover .gambar-baby {
+    transform: rotateY(180deg);
+}
+
+.depan, .belakang {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    backface-visibility: hidden;
+}
+
+.belakang {
+    transform: rotateY(180deg);
+}
+
+.text-container {
+    padding-top: 20px;
+    position: relative;
+    display: flex;
+    width: 60rem;
+    height: 350px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    margin: 20px 30px;
+    background-color: transparent;
+}
+
+.text-container h1 {
+    position: absolute;
+    top: 60px;
+    left: 46px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.text-container h1:hover {
+   text-shadow: 0 0 12px #240a4cff;
+   transform: scale(1) translateY(-3px);
+}
+ 
+.satu {
+    color: white;
+    width: 860px;
+    margin-top: 0;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15px;
+    position: absolute;
+    top: 125px;
+    left: 47px;
+}
+
+.social-icon {
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+}
+
+.social-icon a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 47px;
+    height: 47px;
+    background-color: transparent;
+    border: 1.6px solid white;
+    font-size: 23px;
+    border-radius: 50%;  
+    margin: 10px;
+    transition: 0.3s ease;
+    color: black;
+}
+
+.social-icon a:hover {
+    color: white;
+    transform: scale(1.1)translateY(-3px); 
+    background-color: rgba(226, 133, 198, 0.729);
+    border: none;
+    box-shadow: 0 0 18px rgba(123, 10, 123, 0.655);
+}
