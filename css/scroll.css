@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Roslindale";
+  src: url("Roslindale-DisplayCondensedMedium-Testing.woff");
+}
+
+.blankSpace {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: gray;
+}
+
+.horizontolScroll {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 500;
+}
+
+.container {
+  background-color: #000;
+  width: 100%;
+  height: 260vh;
+  overflow-x: hidden;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container h1 {
+  width: 100%;
+  color: #fff;
+  font-size: 48vw;
+  font-family: "Roslindale";
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+.wrapper-404 {
+  position: absolute;
+  top: 0;
+  width: 420vw;
+  height: 100vh;
+  will-change: transform;
+}
+
+.card {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#card-1 {
+  width: 250px;
+  height: 250px;
+  top: 55%;
+  left: 27%;
+}
+
+#card-2 {
+  top: 20%;
+  left: 53%;
+}
+
+#card-3 {
+  width: 250px;
+  height: 250px;
+  top: 57%;
+  left: 60%;
+}
+
+#card-4 {
+  top: 26;
+  left: 83%;
+}
+
+#card-5 {
+  width: 250px;
+  height: 250px;
+  top: 55%;
+  left: 100%;
+}
+
+.outro {
+  position: absolute;
+  top: 150vh;
+  width: 100%;
+  height: 100vh;
+}
+
+.outro h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+  font-size: 40px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .wrapper-404 {
+    padding-top: 20em;
+  }
+}

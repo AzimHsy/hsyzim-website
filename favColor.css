@@ -1,7 +1,7 @@
 .last-wrapper {
   background-color: rgb(219, 130, 222);
   display: flex;
-  z-index: 300;
+  z-index: 400;
   position: relative;
   height: 500vh;
   width: 100%;

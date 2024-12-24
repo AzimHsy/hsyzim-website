@@ -1,20 +1,20 @@
 .wrapper-two {
- background-image: url(pinkbgf/Cute-Pink-HD-Desktop-Wallpaper-Download-Free-1.jpg);
- background-size: cover;
- height: 460px;
- margin: 60px 100px;
- border-radius: 7px;
- box-shadow: 0 0 40px rgba(47, 21, 49, 0.658);
- display: flex; 
- justify-content: center;
- align-items: center;
- position: relative;
- padding: 70px 50px;
+  background-image: url(pinkbgf/Cute-Pink-HD-Desktop-Wallpaper-Download-Free-1.jpg);
+  background-size: cover;
+  height: 460px;
+  margin: 60px 100px;
+  border-radius: 7px;
+  box-shadow: 0 0 40px rgba(47, 21, 49, 0.658);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 70px 50px;
 }
 
 .text {
   position: relative;
-  color: black;
+  color: white;
   text-shadow: 2px 2px 10px rgba(79, 74, 74, 0.592);
   font-size: 28px;
   padding: 23px 20px;
@@ -23,145 +23,150 @@
 }
 
 .why-container {
-    left: 168px;
-    position: absolute;
-    top: 60px;
+  left: 168px;
+  position: absolute;
+  top: 60px;
 }
 
 .gambar-atas {
-    display: flex;
-    position: absolute;
-    top: 60px;
-    right: 140px;
-    overflow: hidden;
+  display: flex;
+  position: absolute;
+  top: 60px;
+  right: 140px;
+  overflow: hidden;
 }
 
-.text-img1 { 
-    padding-top: 4px;
-    position: relative;
+.text-img1 {
+  padding-top: 4px;
+  position: relative;
 }
 
 .overlay1 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    border-radius: 6px;
-    transition: .5s ease;
-    background: transparent;
-    backdrop-filter: blur(2px);
-  }
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  border-radius: 6px;
+  transition: 0.5s ease;
+  background: transparent;
+  backdrop-filter: blur(2px);
+}
 
-  .text-img1:hover .overlay1 {
-    opacity: 1;
-  }
+.text-img1:hover .overlay1 {
+  opacity: 1;
+}
 
-  .reason1 {
-    color: white;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 500;
-    text-shadow: 0 3px 5px black;
-    position: absolute;
-    top: 36px;
-    width: 210px;
-    left: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-.text-img2 { 
-    padding-top: 4px;
-    position: relative;
+.reason1 {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  text-shadow: 0 3px 5px black;
+  position: absolute;
+  top: 36px;
+  width: 210px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-img2 {
+  padding-top: 4px;
+  position: relative;
+}
+
+.reason1,
+.reason2,
+.reason3 {
+  font-family: "Merriweather", serif;
+  margin-top: 8px;
+  padding: 0 6px;
+  font-weight: 600;
 }
 
 .overlay2 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    border-radius: 6px;
-    transition: .5s ease;
-    background: transparent;
-    backdrop-filter: blur(2px);
-  }
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  border-radius: 6px;
+  transition: 0.5s ease;
+  background: transparent;
+  backdrop-filter: blur(2px);
+}
 
 .text-img2:hover .overlay2 {
-    opacity: 1;
- }
+  opacity: 1;
+}
 
 .reason2 {
-    color: white;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 500;
-    text-shadow: 0 3px 5px black;
-    position: absolute;
-    top: 36px;
-    width: 210px;
-    left: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-.text-img3 { 
-    padding-top: 4px;
-    position: relative;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  text-shadow: 0 3px 5px black;
+  position: absolute;
+  top: 36px;
+  width: 210px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-img3 {
+  padding-top: 4px;
+  position: relative;
 }
 
 .overlay3 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    border-radius: 6px;
-    transition: .5s ease;
-    background: transparent;
-    backdrop-filter: blur(2px);
-   
-  }
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  border-radius: 6px;
+  transition: 0.5s ease;
+  background: transparent;
+  backdrop-filter: blur(2px);
+}
 
-  .text-img3:hover .overlay3 {
-    opacity: 1;
-  }
+.text-img3:hover .overlay3 {
+  opacity: 1;
+}
 
-  .reason3 {
-    color: white;
-    text-align: center;
-    font-size: 13px;
-    font-weight: 500;
-    text-shadow: 0 3px 5px black;
-    position: absolute;
-    top: 38px;
-    width: 210px;
-    left: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.reason3 {
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  text-shadow: 0 3px 5px black;
+  position: absolute;
+  top: 38px;
+  width: 210px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .photo {
-    width: 220px;
-    aspect-ratio: 16/9;
-    object-fit: cover;
-    border-radius: 6px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.589);
-    margin: 0 5px;
-    overflow: hidden;
+  width: 220px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.589);
+  margin: 0 5px;
+  overflow: hidden;
 }
 
 .photo:hover {
@@ -175,19 +180,48 @@
   right: 138px;
 }
 
-.bwh1, .bwh3{
-  object-position: bottom;
+.bwh1 {
+  object-position: 0 90%;
 }
 
-.bwh2, .bwh4 {
-  object-position: 0 80%;
+.bwh3 {
+  object-position: 0 65%;
+}
+
+.bwh4 {
+  object-position: 0 30%;
 }
 
 .bwh {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 250px;
-  margin: 0 5px; 
+  margin: 0 5px;
   aspect-ratio: 16/12;
   object-fit: cover;
   border-radius: 6px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.589);
+}
+
+.reason-bwh {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reason-bwh p {
+  padding: 25px;
+  width: 100%;
+  position: absolute;
+  color: white;
+  font-family: "Merriweather", serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-shadow: 0 3px 5px black;
 }

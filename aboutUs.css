@@ -1,207 +1,203 @@
-.aboutUs-container{
-    z-index: 200;
-    margin-top: 80px;
-    background-image:
-    linear-gradient(to right bottom, #a42153, #c5558e, #d483ac, #a42153 );
-    background-blend-mode:screen;
-    height: 1780px;
-    position: relative;
-    border: 1px solid white;
-    border-color: transparent;
-    scroll-snap-type: y mandatory;
-}
-
-.dot-hb {
-    font-size: 16px;
+.aboutUs-container {
+  z-index: 200;
+  margin-top: 80px;
+  background-image: url(pinkbgf/Cute-Pink-HD-Desktop-Wallpaper-Download-Free-1.jpg);
+  background-size: cover;
+  background-blend-mode: screen;
+  height: 1780px;
+  position: relative;
+  border: 1px solid white;
+  border-color: transparent;
+  scroll-snap-type: y mandatory;
 }
 
 .hb-header {
-    font-family: "Merriweather", serif;
-    position: absolute;
-    width: 100%;
-    height: 50px;
-    margin-top: 40px;
-    margin-bottom: 50px;
-    font-size: 32px;
-    letter-spacing: 14px;
-    text-align: center;
-    color: white;
-    z-index: 200;
-
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-size: 32px;
+  letter-spacing: 14px;
+  text-align: center;
+  color: white;
+  z-index: 200;
+  opacity: 0;
+  transform: translateY(100px);
 }
 
 .wish-container {
-    position: sticky;
-    top: 130px;
-    width: 40%;
-    margin: 160px 40px 200px 130px;
+  position: sticky;
+  top: 130px;
+  width: 40%;
+  margin: 160px 40px 200px 130px;
 }
 
 .hb-wish {
-    font-family: "Playfair Display", serif;
-    font-size: 29px;
-    word-spacing: 2px;
-    font-weight: thin;
-    color: white;
-    margin-bottom: 20px;
-    cursor: context-menu;
+  font-family: "Vollkorn", serif;
+  font-size: 29px;
+  word-spacing: 2px;
+  font-weight: thin;
+  color: white;
+  margin-bottom: 20px;
+  cursor: context-menu;
 }
 
 .study-wish {
-    cursor: context-menu;
-    margin-top: 42px;
-    margin-bottom: 20px;
-    font-family: "Playfair Display", serif;
-    font-size: 26px;
-    color: white;
+  cursor: context-menu;
+  margin-top: 42px;
+  margin-bottom: 20px;
+  font-family: "Vollkorn", serif;
+  font-size: 26px;
+  color: white;
 }
 
 .degree {
-    font-family: "Playfair Display", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    border-bottom: 1px inset white;
+  font-family: "Vollkorn", serif;
+  font-style: italic;
 }
 
-.letter, .study-letter {
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-size: 13px;
-    word-break: keep-all;
-    word-spacing: 1px;
-    width: 500px;
-    font-style: italic;
+.letter,
+.study-letter {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  word-break: keep-all;
+  word-spacing: 1px;
+  width: 500px;
+  font-style: italic;
 }
 
 .hb-img {
-    aspect-ratio: 1/1;
-    width: 250px;
-    object-fit: cover;
-    border-radius: 3px;
+  aspect-ratio: 1/1;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 3px;
 }
 
 .hb-img-container {
-    width: auto;
-    height: auto;
-    position: absolute;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr 1fr 120px 120px 1fr 140px;
-    right: 100px;
-    margin-top: 160px;
-    margin-bottom: 20px;
-    gap: 8px;
-    grid-template-areas: 
-    'one one1'
-    'two two2'
-    'three three3';
+  width: auto;
+  height: auto;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 120px 120px 1fr 140px;
+  right: 100px;
+  margin-top: 160px;
+  margin-bottom: 20px;
+  gap: 8px;
+  grid-template-areas:
+    "one one1"
+    "two two2"
+    "three three3";
 }
 
 .hbvideo1 {
-    grid-area: two;
+  grid-area: two;
 }
 
 .hbvideo2 {
-    grid-area: one1;
+  grid-area: one1;
 }
 
 .hbvideo3 {
-    object-position: 0 80%;
+  object-position: 0 80%;
 }
 
 .grid-pemisah {
-    background-image: url(images/hannasapika2.jpg);
-    background-size: cover;
-    background-position: 0 70%;
-    grid-column: 2 span;
-    border-radius: 4px;
-    color: white;
+  background-image: url(images/hannasapika2.jpg);
+  background-size: cover;
+  background-position: 0 70%;
+  grid-column: 2 span;
+  border-radius: 4px;
+  color: white;
 }
 
 .grid-video1 {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    border-radius: 4px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
 }
 
 .grid-pemisah3 {
-    background-image: url(images/photo_2024-10-27_18-10-55.jpg);
-    background-position: 0 50%;
-    background-size: cover;
-    border-radius: 4px;
-    grid-row: span 2;
-    color: white;
+  background-image: url(images/photo_2024-10-27_18-10-55.jpg);
+  background-position: 0 50%;
+  background-size: cover;
+  border-radius: 4px;
+  grid-row: span 2;
+  color: white;
 }
 
 .grid-pemisah4 {
-    background-image: url(images/hsy13.jpg);
-    background-size: cover;
-    background-position: 0 30%;
-    border-radius: 4px;
+  background-image: url(images/hsy13.jpg);
+  background-size: cover;
+  background-position: 0 30%;
+  border-radius: 4px;
 }
 .grid-pemisah5 {
-    background-image: url(images/beautiful-girl.jpg);
-    background-size: cover;
-    background-position: 60% 0;
-    grid-row: span 2;
-    border-radius: 4px;
+  background-image: url(images/beautiful-girl.jpg);
+  background-size: cover;
+  background-position: 60% 0;
+  grid-row: span 2;
+  border-radius: 4px;
 }
 .grid-video2 {
-    aspect-ratio: 1/1;
-    width: 250px;
-    object-position: 0 80%;
-    object-fit: cover;
-    border-radius: 4px;
+  aspect-ratio: 1/1;
+  width: 250px;
+  object-position: 0 80%;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 .grid-pemisah7 {
-    background-image: url(images/hsy3.jpg);
-    background-position: 0 80%;
-    background-size: cover;
-    border-radius: 4px;
+  background-image: url(images/hsy3.jpg);
+  background-position: 0 80%;
+  background-size: cover;
+  border-radius: 4px;
 }
 
 .dash-bar {
-    width: 550px;
-    height: 234px;
-    position: absolute;
-    bottom: 40px;
-    left: 106px;
+  width: 550px;
+  height: 234px;
+  position: absolute;
+  bottom: 40px;
+  left: 106px;
 }
 
 .video-wish {
-    opacity: 0;
-    position: absolute;
-    background-image: url(images/1600w-KBBZLdpjLcM.webp);
-    background-size: cover;
-    background-position: 0 10%;
-    font-family: "Montserrat", sans-serif;
-    color: gray;
-    letter-spacing: 3px;
-    font-weight: 600;
-    border-radius: 8px;
-    padding: 10px 20px;
-    width: 480px;
-    font-size: 14px;
-    bottom: 90px;
-    left: 148px;
-    word-spacing: 3px;
-    border: none;
-    transition: 0.5s ease;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(80, 77, 77, 0.362);
+  opacity: 0;
+  position: absolute;
+  background-image: url(images/1600w-KBBZLdpjLcM.webp);
+  background-size: cover;
+  background-position: 0 10%;
+  font-family: "Montserrat", sans-serif;
+  color: gray;
+  letter-spacing: 3px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 440px;
+  font-size: 14px;
+  bottom: 90px;
+  left: 165px;
+  word-spacing: 3px;
+  border: none;
+  transition: 0.5s ease;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(80, 77, 77, 0.362);
 }
 
 .video-wish:hover {
-    background-position: 0 70%;
-    font-weight: 700;
-    letter-spacing: 4px;
-    word-spacing: 4px;
-    box-shadow: 0 0 10px rgba(40, 39, 39, 0.729);
-    color: black;
+  background-position: 0 70%;
+  font-weight: 700;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  box-shadow: 0 0 10px rgba(40, 39, 39, 0.729);
+  color: black;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }

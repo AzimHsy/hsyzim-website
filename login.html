@@ -1,41 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page - azimhsy</title>
+    <link rel="icon" href="images/loveicon.jpg" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Azim's Webpage</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
+  <body>
+    <div class="container">
+      <video autoplay loop muted plays-inline class="backg-clip">
+        <source src="./video/wannabeyours.mp4" />
+      </video>
+      <div class="content">
+        <div class="wrapper">
+          <form id="form" method="post">
+            <h1>Login</h1>
+            <h2>
+              This is a special website only for <span>Hanna Syafiqa </span>
+            </h2>
 
-<body>
+            <div class="input-box">
+              <input
+                id="username"
+                type="text"
+                name="username"
+                placeholder="Username"
+                required
+              />
+              <i class="bx bxs-user"></i>
+            </div>
+            <div class="input-box">
+              <input
+                id="password"
+                type="password"
+                name="password"
+                placeholder="Password"
+                required
+              />
+              <i class="bx bxs-lock-alt"></i>
+            </div>
 
-    <div class="wrapper"> 
-         <form action="">
-             <h1>Login</h1>
-                <h2>This is a special website only for <span>Hanna Syafiqa </span></h2>
-                <div class="input-box">
-                    <input type="text" placeholder="Username" required>
-                    <i class='bx bxs-user'></i>
-                </div>
-                <div class="input-box">
-                    <input type="password" placeholder="Password" required>
-                    <i class='bx bxs-lock-alt' ></i>
-                </div>
-                
-                <div class="remember-forgot">
-                     <label><input type ="checkbox"> Remember me</label>
-                     <a href="#"> Forgot password?</a>
-                </div>
-                
-                <a href="mainpage.html" class="button">Login</a>
+            <div class="remember-forgot">
+              <label><input type="checkbox" /> Remember me</label>
+              <a onclick="alert('HOW CAN YOU LUPA PASSWORD??!!')"
+                >Forgot password?</a
+              >
+            </div>
+            <submit id="login" class="button">Login</submit>
+          </form>
+        </div>
+      </div>
+    </div>
 
-                <div class="register-link">
-                    <p>Don't have an account? <a href="#">Register </a> </p>
-                    
-                </div>
-                
-        </form>
-</body>
+    <script defer src="./js/login.js"></script>
+  </body>
 </html>

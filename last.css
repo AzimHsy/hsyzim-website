@@ -1,14 +1,13 @@
-.spacer {
-  background-color: rgb(213, 196, 159);
-  z-index: 200;
-  position: relative;
-  height: 200vh;
-  width: 100vw;
+@font-face {
+  font-family: "Roslindale";
+  src: url("/fonts/Roslindale-DisplayCondensedMedium-Testing.woff");
 }
 
-.spacer1 {
-  background-color: rgb(213, 196, 159);
+.spacer {
+  background-image: url(pinkbgf/abstract-seamless-pattern-of-many-hearts-on-blue-background-cute-image-simple-style-can-be-use-for-print-paper-fabric-wallpaper-free-vector.jpg);
+  background-size: cover;
   z-index: 200;
+  position: relative;
   height: 200vh;
   width: 100vw;
 }
@@ -25,15 +24,13 @@
   margin-top: 30px;
   left: 10%;
   position: absolute;
-  font-family: "Noto Serif", serif;
-  font-weight: 740;
-  letter-spacing: -1px;
+  font-weight: 600;
+  letter-spacing: -2px;
   color: rgb(29, 26, 26);
-  width: 12em;
-  line-height: 0.9;
+  width: 13em;
+  line-height: 0.7;
   top: 10%;
   font-size: 4rem;
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .wish-container .char {
@@ -41,26 +38,28 @@
 }
 
 .last-header .char {
-  font-family: "Noto Serif", serif;
-  transform: translateY(115px);
+  font-family: "Vollkorn", serif;
+  transform: translateY(30px);
   transition: transform 0.5s;
   opacity: 0;
+  pointer-events: none;
 }
 
 .spacer span {
   margin-top: 20px;
-  width: 12em;
+  width: 9em;
   font-size: 4rem;
   font-family: "Noto Serif", serif;
   font-weight: 700;
-  color: transparent;
-  color: white;
+  color: black;
+  opacity: 0.2;
   transition: 0.2s ease;
   cursor: pointer;
 }
 
 .spacer span:hover {
   color: transparent;
+  opacity: 1;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
 }
@@ -82,4 +81,139 @@
   mix-blend-mode: multiply;
   right: 7%;
   bottom: 0%;
+}
+
+.spacer1 {
+  position: relative;
+  background-color: rgb(29, 26, 26);
+  height: 300vh;
+  width: 100vw;
+  z-index: 400;
+  overflow: hidden;
+}
+
+.spacer1 .char {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 900;
+}
+
+.spacerContainer {
+  position: relative;
+  border: 1px solid white;
+  height: 100vh;
+  background: url(images/Ls2fuE.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.textSpacer1 {
+  position: absolute;
+  height: 40vh;
+  width: 43vw;
+  top: 50%;
+  left: 50%;
+  background-image: url(pinkbgf/Cute-Pink-HD-Desktop-Wallpaper-Download-Free-1.jpg);
+  box-shadow: 15px 15px 30px rgba(128, 71, 125, 0.684);
+  background-size: cover;
+  backdrop-filter: blur(10px);
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  padding: 50px;
+}
+
+.t1 {
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.318);
+  margin: 20px;
+  padding: 20px;
+}
+
+.spacer1 h1 {
+  text-align: center;
+  position: absolute;
+  line-height: 0.9;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container h1 {
+  width: 100%;
+  color: #fff;
+  font-size: 48vw;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 1200vh;
+}
+
+.wrapper-404 {
+  position: absolute;
+  top: 0;
+  width: 400vw;
+  height: 100vh;
+  will-change: transform;
+}
+
+.card {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#card-1 {
+  top: 50%;
+  left: 20%;
+}
+
+#card-2 {
+  top: 25%;
+  left: 40%;
+}
+
+#card-3 {
+  top: 45%;
+  left: 60%;
+}
+
+#card-4 {
+  top: 15%;
+  left: 80%;
+}
+
+.outro {
+  position: absolute;
+  top: 150vh;
+  width: 100%;
+  height: 100vh;
+}
+
+.outro h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+  font-size: 40px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .wrapper-404 {
+    padding-top: 20em;
+  }
 }
